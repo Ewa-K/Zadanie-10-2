@@ -10,7 +10,7 @@ $(document).ready(function(){
     function moveFirstSlide() {
         var firstItem = carouselList.find('li:first');
         var lastItem = carouselList.find('li:last');
-        lastItem.after(firstItem);
+        firstItem.after(lastItem);
         carouselList.css({marginLeft:0});
     }
 });
