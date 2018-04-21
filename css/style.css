@@ -19,4 +19,11 @@
   float: right;
   overflow: hidden;
 }
+
+.carousel ul li img {
+  height: 300px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
